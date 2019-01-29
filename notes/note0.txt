@@ -1,0 +1,14 @@
+// intended movement
+
+if (input_left){
+	moveX = -spd;
+}
+if (input_right){
+	moveY = spd;
+}
+if (input_up){
+	moveX = -spd;
+}
+if (input_down){
+	moveY = spd;
+}
